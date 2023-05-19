@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    padding: 3px;
+}
+
+.resul_page-icon {
+    padding: 0 3px;
+}
+
+.pages{
+    width: 95%;
+    position: absolute;
+    right: 0;
+    top: -2.5rem;
+    &_nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
